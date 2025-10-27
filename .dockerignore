@@ -1,0 +1,109 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# Git & version control
+# =========================
+.git
+.gitignore
+.gitattributes
+
+# =========================
+# Docker itself
+# =========================
+Dockerfile
+.dockerignore
+
+# =========================
+# Logs & runtime files
+# =========================
+*.log
+logs/
+*.pid
+*.out
+*.err
+
+# =========================
+# IDE / Editor files
+# =========================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.bak
+
+# =========================
+# Environment & config
+# =========================
+.env
+.env.local
+config.yaml
+config.yml
+config.json
+config.local.py
+secrets.json
+
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+._*
+
+# =========================
+# Build / packaging / cache
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+*.tar
+*.zip
+*.whl
+*.bak
+tmp/
+temp/
+__pycache__/
+
+# =========================
+# Tests / local tooling (optional)
+# =========================
+tests/
+notebooks/
+examples/
+scripts/
+*.ipynb_checkpoints
+
+# =========================
+# Other
+# =========================
+# You only copy specific directories in your Dockerfile,
+# so we can safely exclude everything else at the end.
+# Then re-include the ones Docker actually needs.
+
+# Ignore everything else by default
+**
+
+# Re-include only what’s copied in Dockerfile
+!telegram_bot/
+!rabbitmq/
+!schemas/
+!requirements.txt

@@ -1,0 +1,115 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+env/
+.venv/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# Logs & runtime files
+# =========================
+*.log
+*.out
+*.err
+logs/
+*.pid
+
+# =========================
+# IDE / Editor specific
+# =========================
+# PyCharm
+.idea/
+# VS Code
+.vscode/
+# Others
+*.swp
+*.swo
+*~
+*.bak
+.DS_Store
+Thumbs.db
+
+# =========================
+# Environment & config files
+# =========================
+# Sensitive files that shouldn't go to GitHub
+.env
+.env.local
+config.yaml
+config.yml
+config.json
+config.local.py
+secrets.json
+
+# =========================
+# Docker
+# =========================
+# Docker build artifacts
+*.tar
+*.bak
+docker-compose.override.yml
+
+# =========================
+# OS generated files
+# =========================
+ehthumbs.db
+Icon?
+._*
+
+# =========================
+# Byte-compiled caches
+# =========================
+**/__pycache__/
+
+# =========================
+# Custom project exclusions
+# =========================
+# Ignore compiled Python bytecode from submodules
+formatters/__pycache__/
+handlers/__pycache__/
+utils/__pycache__/
+__pycache__/
+
+# =========================
+# Jupyter or development notebooks (if any)
+# =========================
+*.ipynb_checkpoints
+
+# =========================
+# Miscellaneous
+# =========================
+# Local testing or temp files
+tmp/
+temp/
+*.tmp
+*.old
+*.orig
